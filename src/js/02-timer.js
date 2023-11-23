@@ -24,7 +24,6 @@ const options = {
     }
   },
 };
-
 flatpickr(refs.timePicker, options);
 let timerId = null;
 refs.startBtn.addEventListener('click', startTimer);
@@ -70,3 +69,4 @@ function convertMs(ms) {
 
   return { days, hours, minutes, seconds };
 }
+
